@@ -1,5 +1,1 @@
-BusinessLogic development
-asd
-asd
-
-==========
+# blogify
