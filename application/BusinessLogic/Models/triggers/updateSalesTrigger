@@ -1,0 +1,99 @@
+drop trigger if exists updateSalesTriggerINSERT;
+
+delimiter $$
+create trigger updateSalesTriggerINSERT
+after insert
+on orders_items
+for each row
+begin
+declare x INT default 0;
+declare rating_stat double default 1;
+declare nr_sales INT default 0;
+
+select count(id_stats) into x from items_stats where id_item=new.id_item;
+select sum(quantity) into nr_sales from orders_items where id_item=new.id_item;
+
+if x = 0 then
+
+/* inseamna ca trebuie sa inseram statistica */
+
+insert into items_stats (lastUpdate,rating,views,id_item,sales) values 
+(now(),0,0,new.id_item,nr_sales);
+
+else
+
+/* statistica exista facem update */
+update items_stats set lastUpdate=now(),sales=nr_sales where id_item=new.id_item;
+
+end if;
+
+end$$
+
+delimiter ;
+
+drop trigger if exists updateSalesTriggerUPDATE;
+
+delimiter $$
+create trigger updateSalesTriggerUPDATE
+after update
+on orders_items
+for each row
+begin
+declare x INT default 0;
+declare rating_stat double default 1;
+declare nr_sales INT default 0;
+
+select count(id_stats) into x from items_stats where id_item=new.id_item;
+select sum(quantity) into nr_sales from orders_items where id_item=new.id_item;
+
+if x = 0 then
+
+/* inseamna ca trebuie sa inseram statistica */
+
+insert into items_stats (lastUpdate,rating,views,id_item,sales) values 
+(now(),0,0,new.id_item,nr_sales);
+
+else
+
+/* statistica exista facem update */
+update items_stats set lastUpdate=now(),sales=nr_sales where id_item=new.id_item;
+
+end if;
+
+end$$
+
+delimiter ;
+
+
+drop trigger if exists updateSalesTriggerDELETE;
+
+delimiter $$
+create trigger updateSalesTriggerDELETE
+after delete
+on orders_items
+for each row
+begin
+declare x INT default 0;
+declare rating_stat double default 1;
+declare nr_sales INT default 0;
+
+select count(id_stats) into x from items_stats where id_item=old.id_item;
+select sum(quantity) into nr_sales from orders_items where id_item=old.id_item;
+
+if x = 0 then
+
+/* inseamna ca trebuie sa inseram statistica */
+
+insert into items_stats (lastUpdate,rating,views,id_item,sales) values 
+(now(),0,0,old.id_item,nr_sales);
+
+else
+
+/* statistica exista facem update */
+update items_stats set lastUpdate=now(),sales=nr_sales where id_item=old.id_item;
+
+end if;
+
+end$$
+
+delimiter ;

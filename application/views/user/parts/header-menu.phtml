@@ -1,0 +1,82 @@
+<div class="top_holder" >
+
+    <div class="inner_small">
+        <a class="logo pointer" href="<?php echo base_url() ?>">
+            <img src="<?php echo base_url(BusinessLogic\Util\Language::output("helpie_logo")) ?>"/>
+        </a>
+
+        <div class="tip_pachet desktop-only">
+            <div class="name"> <span>User : </span> <?php echo \BusinessLogic\Util\Language::output("utilizator") ?> <?php echo $user->getActivePachet()->getName() ?></div>
+            <div class="price"><?php echo \BusinessLogic\Util\Language::output("pret") ?>: <span> <?php echo $user->getActivePachet()->getPrice() ?>  lei </span></div>
+            <div class="expires"><?php echo \BusinessLogic\Util\Language::output("expira") ?> <?php echo $user->getActivePachet()->getExpireDate() ?></div>
+        </div>
+        
+        <nav class="mobile-menu">
+            <div class="icon">
+                <img class="sb-toggle-right" src="<?php echo base_url('assets/frontend/layout/menu.png'); ?>"/>
+            </div>
+        </nav>
+    </div>
+    
+    <div  class="clear"></div>
+
+</div>
+
+<div class="bottom_holder desktop-only" >
+    
+    <div class="inner_small">
+        
+        <div class="left">
+<?php if (!$user->getActivePachet()->getIsEnabled()) : ?>
+            <div><?php echo \BusinessLogic\Util\Language::output("pachet_inactiv")?></div>
+<?php elseif ($user->getActivePachet()->getIsExpired()) : ?>
+            <div><?php echo \BusinessLogic\Util\Language::output("pachet_expirat")?><?php echo $user->getActivePachet()->getExpireDate() ?></div>
+<?php endif ?>
+        </div>
+        
+        <div class="right">
+            
+            <table>
+                <tr>
+                    <td>
+                        <p>
+<?php
+    if (!$user->getActivePachet())
+    {echo "Nu aveti niciun pachet cumparat";exit();}
+    else
+    {echo \BusinessLogic\Util\Language::output("welcome"); echo ", " . $this->view->getUser()->getFirstname();}
+?> !
+                        </p>
+                    </td>
+                    
+                    <td>
+                        <div class="userProfileIcn" style="background : url();background-size : 100% 100%;">
+                            <img src="<?php echo base_url("assets/frontend/layout/no_image.jpg")?>" width="100%" alt="Profile photo">
+                        </div>                    
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" style="padding-right: 60px;">
+                      <a href="<?php echo base_url('account') ?>">Dashboard</a>
+                    </td>
+                    <td>
+                        <a href="<?php echo base_url('user/logout') ?>">Logout</a>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        
+    </div>
+    
+</div>
+<!--
+
+<?php if (1 == 2) : ?>
+    <nav class="desktop-menu" style="right:0em; margin-right: 0em; padding-top: 1.5em; padding-bottom: 1.5em;"> 
+        <a href="<?php echo base_url('account') ?>">Dashboard</a>
+        <a style="border:0px;" href="<?php echo base_url('user/logout') ?>">Logout</a>
+    </nav>
+<?php endif; ?>
+-->

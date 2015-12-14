@@ -1,0 +1,180 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: catalin.bardas
+ * Date: 08.05.2014
+ * Time: 17:16
+ * To change this template use File | Settings | File Templates.
+ */
+
+class TrsConstants {
+
+	//roluri
+	const ROL_ADMIN=1;
+	const ROL_CONSTRUCTOR=17;
+	const ROL_SEF_FOL=14;
+	const ROL_SEF_SECTOR=15;
+	const ROL_UTILIZATOR_DGSR=16;
+
+	const LUCRARE_REFACERE=2;
+	const LUCRARE_DESFACERE=1;
+	const LUCRARE_REFACERE_CAMINE_VANE=3;
+	const LUCRARE_FORAJ_ORIZONTAL=4; //temp\
+	const LUCRARE_RIDICARE_MANIPULARE=5; //temp
+	const ELIMINARE_DESEURI=6; //temp
+
+	//statusuri PVRT
+	const STATUS_EXISTA_PV = 1;
+	const STATUS_ACCEASI_FIRMA = 2;
+	const STATUS_FIRME_DIFERITE = 3;
+
+	//comanda status
+	const COMANDA_ANULATA=3009;
+	const COMANDA_NOUA=3010;
+	const COMANDA_PRELURCATA=3011;
+
+
+	//tip lucrare
+	const LUCRARE_DEFINITIVA=2;
+	const LUCRARE_PROVIZORIE=1;
+
+	//lucrare status
+	const LUCRARE_NOUA=3001;
+	const LUCRARE_DEMARATA=3002;
+	const LUCRARE_ANULATA=3008;
+	const LUCRARE_FINALIZATA=3003;
+	const LUCRARE_NEONORATA=3014;
+	const LUCRARE_FARA_PVRF=3019;
+	const LUCRARE_CU_PVRF=3020;
+	const LUCRARE_FINALIZATA_IN_TEREN=3032;
+	const LUCRARE_FINALIZATA_CU_SL=3033;
+	const LUCRARE_FINALIZATA_CU_MIGO=3034;
+	const LUCRARE_FINALIZATA_CU_SL_REGISTRATURA=3035;
+
+	//sel
+	const SEL_NOU="3007";
+	const SEL_ANULAT="3005";
+	const SEL_TRANSMIS="3004";
+	const SEL_NEONORAT="3006";
+	const SEL_ASTEAPTA_VALIDARE="3017";
+
+	//sl
+	const SL_NOU="3018";
+	const SL_ASTEAPTA_VALIDARE="3022";
+	const SL_VALIDAT="3024";
+	const SL_VALIDAT_CU_MODIFICARI="3025";
+
+
+	//email
+	const FROM_EMAIL="portal_constructor_CEL@distrigazsud-retele.ro";
+	const FROM_NAME="Portal Parteneri";
+	const EMAIL_SUBJECT_SEL="Solicitare executie lucrare";
+	const EMAIL_SUBJECT_APROBARE_SEL="Solicitare aprobare SEL";
+	const EMAIL_SUBJECT_ATASARE_LISTA_SEL="Lista SEL-uri transmise";
+	const EMAIL_SUBJECT_NOTIFICARE_PV="Documentul PV este atasat.";
+	const EMAIL_SUBJECT_NOTIFICARE_PVRT="Documentul PVRT este atasat.";
+	const EMAIL_SUBJECT_GENERARE_PVRF="Document PVRF generat";
+	const EMAIL_SUBJECT_VALIDARE_SL="Solicitare Validare SL";
+	const EMAIL_SUBJECT_SL_VALIDAT="Document SL Validat";
+	const EMAIL_SUBJECT_LISTA_LUCRARI_DEPASITE="Lista Lucrari Depasite";
+
+	//link-uri
+	const LINK_APP="https://webt.gdfsuez.ro/portalparteneri_o/";
+
+
+	//PV
+	const PV_NOU=3012;
+	const PV_MODIFICAT=3013;
+
+	//PVRT
+	const PVRT_NOU=3015;
+	const PVRT_MODIFICAT=3016;
+
+
+
+	//CENTRALIZATOR
+	const CENTRALIZATOR_NOU=3027;
+	const CENTRALIZATOR_OPEX_RESPINS=3028; //a fost trimis catre SAP dar a fost respins cu eroare.
+	const CENTRALIZATOR_OPEX_ANULAT_UTILIZATOR=3029;
+	const CENTRALIZATOR_OPEX_PROCESAT=3030; //aka s-a creat comanda MM
+	const  CENTRALIZATOR_OPEX_ANULAT_SAP=3031; //aka s-a anulat comanda MM
+
+	//workflows
+	const WORKFLOW_TRS_SEL=6;
+	const WORKFLOW_TRS_SL=67;
+	const WORKFLOW_TRS_COMANDA=9;
+	const WORKFLOW_TRS_PV=10;
+	const WORKFLOW_TRS_LUCRARE=11;
+
+	//ENUM PV
+	const ENUM_PV="PV";
+	const ENUM_PVRT="PVRT";
+
+
+	//actions
+	const ACTIUNE_COMANDA_PRELUCRATA=4010;
+	const ACTIUNE_COMANDA_ANULATA = 4047;
+	const ACTIUNE_ANULARE_LUCRARE_COMANDA=4049;
+	const ACTIUNE_CREARE_LUCRARE_COMANDA = 4048;
+	const ACTIUNE_SEL_ATASAT=4000;
+	const ACTIUNE_SEL_EMAIL_CITIT=4001;
+	const ACTIUNE_SEL_TRANSMIS_EMAIL=4002;
+	const ACTIUNE_ANULARE_SEL=4003;
+	const ACTIUNE_ACTUALIZARE_SEL=4004;
+	const ACTIUNE_SEL_NEONORAT=4006;
+	const ACTIUNE_DOC_JUSTIFICATIV_SEL=4009;
+
+
+	const ACTIUNE_ADAUGARE_SEL=4007;
+	const ACTIUNE_ADAUGARE_PV=4005;
+	const ACTIUNE_ADAUGARE_PVRT=4013;
+	const ACTIUNE_MODIFICARE_PV=4008;
+	const ACTIUNE_MODIFICARE_PVRT=4014;
+
+	const ACTIUNE_PVRF_ATASAT=4015;
+	const ACTIUNE_PVRF_GENERAT=4017;
+
+	const ACTIUNE_ANULARE_LUCRARE=4011;
+	const ACTIUNE_NOTIFICARE_SEF=4012;
+	const ACTIUNE_NOTIFICARE_SEF_SL=4020;
+
+	//sl
+	const ACTIUNE_CREARE_SL=3016;
+	const ACTIUNE_MODIFICARE_SL_CONSTR=4018;
+	const  ACTIUNE_MODIFICARE_SL=4021;
+	const ACTIUNE_VALIDARE_SL=4022;
+	const ACTIUNE_VALIDARE_SL_MODIFICAT=4023;
+	const ACTIUNE_SETARE_VERIFICARE_TEREN=4024;
+	const ACTIUNE_SL_ATASAT=4025;
+
+	//status lucrari in functie de SEL
+	const ACTIUNE_LUCRARE_DEMARATA=4027;
+	const ACTIUNE_LUCRARE_ANULATA=4026;
+	const ACTIUNE_LUCRARE_NEONORATA=4028;
+
+	const ACTIUNE_WOKFLOW_ERROR=4036;
+
+	//actiuni centralizatoare
+	const ACTIUNE_GENERARE_CENTRALIZATOR_MM=4029;
+	const ACTIUNE_ANULARE_CENTRALIZATOR_MM=4030;
+	const ACTIUNE_TRIMITERE_CENTRALIZATOR_MM_SAP=4031;
+	const ACTIUNE_CENTRALIZATOR_SEMNAT=4032;
+	const ACTIUNE_RASPUNS_SAP_MM=4033;
+	const ACTIUNE_SAP_RECEPTIE__SL=4034;
+	const ACTIUNE_SAP_STORNARE__SL=4035;
+	const ACTIUNE_SAP_ANULARE_CENTRALIZATOR_MM=4045;
+
+
+	//constante WSDL
+	const WSDL_EV_SET_MIGO="wsdl/terasamente/evaluarefurnizori/IF_OUT_SET_MIGO.wsdl";
+
+	const WSDL_SAP_OUT_ASYNC_COMANDA_PM="wsdl/terasamente/sap/IF_OUT_ASYNC_COMANDA_PM.wsdl";
+	const WSDL_SAP_OUT_ASYNC_COMANDA_PM_2="wsdl/terasamente/sap/IF_OUT_ASYNC_COMANDA_PM_2.wsdl";
+	const WSDL_SAP_OUT_ASYNC_ANULARE_COMANDA_MM="wsdl/terasamente/sap/IF_OUT_ASYNC_ANULARE_COMANDA_MM.wsdl";
+	const WSDL_SAP_OUT_ASYNC_RECEPTIE="wsdl/terasamente/sap/IF_OUT_ASYNC_RECEPTIE.wsdl";
+	const WSDL_SAP_IN_SYNC_COMANDA_CO="wsdl/terasamente/sap/IF_IN_SYNC_COMANDA_CO.wsdl";
+	const WSDL_SAP_IN_SYNC_CREARE_COMANDA_MM="wsdl/terasamente/sap/IF_IN_SYNC_COMANDA_MM.wsdl";
+	const WSDL_SAP_IN_SYNC_CONTRACT_MM="wsdl/terasamente/sap/IF_IN_SYNC_CONTRACT_MM.wsdl";
+	const WSDL_SAP_IN_ASYNC_TABELA_MARTOR="wsdl/terasamente/sap/IF_IN_ASYNC_TABELA_MARTOR.wsdl";
+
+}

@@ -1,0 +1,273 @@
+<root>
+    <!-- header -->
+    <servicii>Servicii</servicii>
+    <helpie_logo>assets/frontend/layout-reloaded/helpie_logo_en.png</helpie_logo>
+    <helpie_logo_admin>assets/frontend/layout/white_logo.png</helpie_logo_admin>
+    
+    <helpie_index_image>assets/frontend/layout/helpie_banner.png</helpie_index_image>
+    <facebook_link>https://www.facebook.com/Helpie.ro</facebook_link>
+    <google_link>https://plus.google.com/112040464551746866321/posts</google_link>
+    <twitter_link>https://twitter.com/helpieromania</twitter_link>
+    <linked_link>https://www.linkedin.com/company/helpie-ro</linked_link>
+    <pinterest_link>http://www.pinterest.com/helpiero/</pinterest_link>
+    <youtube_link>https://www.youtube.com/channel/UCl4gRtIgzPHqluBGq2imr3A</youtube_link>
+    <homepage_logo>assets/frontend/layout/helpie_logo.png</homepage_logo>
+    <timp_liber_title>DE CE VREI SĂ AI TIMP LIBER</timp_liber_title>
+    <timp_liber_desc>Misiunea noastră este să optimizăm viaţa clienţilor noştri prin reducerea stresului şi lucrului cu timpul liber. Helpie este un punct central de contact pentru oamenii  ocupaţi şi care sunt presaţi de timp. Pentru că serviciul Helpie lucrează pentru nevoile tale şi nivelul de timp dorit, vei plăti doar un abonament lunar.</timp_liber_desc>
+    <vezi_lista_servicii>Vezi lista completă de servicii aici</vezi_lista_servicii>
+    <alatura_te_comunitatii_mobile>ALĂTURĂ-TE SUPER COMUNITĂŢII DE OAMENI CARE AU TIMP LIBER</alatura_te_comunitatii_mobile>  
+    <header_video>https://www.youtube.com/watch?v=ooB-KtfxS44</header_video>
+    <alatura_te_comunitatii_desktop>
+        <![CDATA[ALĂTURĂ-TE SUPER COMUNITĂŢII <br/> DE OAMENI CARE AU TIMP LIBER ]]>
+    </alatura_te_comunitatii_desktop>  
+    <comunitate> 
+         <![CDATA[
+         La Helpie, noi înţelegem importanţa timpului tău şi din acest motiv serviciile noastre îţi creează ŢIE timp liber. Cu maniera unor aptitudini ridicate şi a unui staff dedicat, te asigurăm că nevoile tale vor fi rezolvate rapid în deplină siguranţă. Tu te poţi ocupa de lucrurile importante din viaţa ta, îţi eficientizezi taskurile cu valoare ridicată pentru tine şi evoluţia ta ca individ, este mai rapidă. Uşor, simplu şi garantat poţi face asta cu Helpie!
+        ]]>
+    </comunitate>
+    <comunitate_video>//www.youtube.com/embed/NYvrL5QrlGQ</comunitate_video>
+    <cum_functioneaza_title>CUM FUNCŢIONEAZĂ</cum_functioneaza_title>
+    <cum_functioneaza_footer>Cum funcţionează</cum_functioneaza_footer>
+    <cum_functioneaza_desc>
+       <![CDATA[
+        <li>
+	Alegi pachetul cu servicii care ţi se potriveşte. Cu o gamă largă de servicii, Helpie este alături de tine pentru crearea timpului tău liber. Lucrează cu noi prin orice metodă: online, mobile, email, sms
+        </li>
+        <li>
+        Helpie te ajută în taskurile tale din fiecare zi. Dacă ai un TO DO de zi cu zi, noi ţi-l rezolvăm. Trimite-ne taskurile nouă şi garantat timpul tău liber va creşte. Din contul tău Helpie soliciţi servicii, ne trimiţi poze cu facturi, etc.
+        </li>
+        <li>
+          Noi plătim / rezolvăm şi notificăm confirmările prin telefon ,email, sms sau cont Helpie. În contul tău Helpie, accesibil desktop şi mobile, vezi automat, oricând, balanţa soldului tău
+        </li>	
+  
+         ]]>
+    </cum_functioneaza_desc>   
+    <alege_fericirea>ALEGE FERICIREA</alege_fericirea> 
+    <alege_fericirea_desc>Începe să faci ceea ce ştii mai bine şi de restul ne ocupăm noi ! </alege_fericirea_desc>
+    <alege_fericirea_photo_1>assets/frontend/layout/home_pas1.png</alege_fericirea_photo_1>
+    <alege_fericirea_photo_2>assets/frontend/layout/home_pas2.png</alege_fericirea_photo_2>
+    <alege_fericirea_photo_3>assets/frontend/layout/home_pas3.png</alege_fericirea_photo_3>
+    <beneficii_title>BENEFICII</beneficii_title>
+    <beneficii_desc>
+        
+         <![CDATA[
+         <b>Eşti gata să trăieşti Inteligent?</b>
+         <ul>
+        <li>Câştigi timp liber cu Helpie </li>
+        <li>Lucrăm repede şi în siguranţă</li>
+        <li>Calitatea serviciilor este asigurată</li>
+        <li>Primeşti ajutor repede</li>
+        <li>Comunicare rapidă: skype, telefon, sms, mobile</li>
+        <li>Plăti rapide şi sigure, vezi automat soldul contului tău</li>
+        <li>Consultanţă gratuită pentru oricare dintre servicii</li>
+        </ul>
+        ]]>
+    </beneficii_desc>
+    <vezi_pachete_btn>Vezi pachete</vezi_pachete_btn>
+    <testimoniale_title>TESTIMONIALE</testimoniale_title>
+    <homepage_testimonial_1>https://www.youtube.com/watch?v=RlpdzHguLAg</homepage_testimonial_1>
+    <homepage_testimonial_1_thumb>http://img.youtube.com/vi/RlpdzHguLAg/0.jpg</homepage_testimonial_1_thumb>
+    <homepage_testimonial_1_descriere>
+        Alexandru ne povesteste cum l-a ajutat Helpie sa ajunga pe Kilimanjaro 5895 M, Aconcagua 6962 M si Elbrus 5642 M
+    </homepage_testimonial_1_descriere>
+    <homepage_testimonial_1_autor>Alexandru</homepage_testimonial_1_autor>
+    <homepage_testimonial_1_autor_functie>Manager</homepage_testimonial_1_autor_functie>
+    
+    <homepage_testimonial_2>https://www.youtube.com/watch?v=NYvrL5QrlGQ</homepage_testimonial_2>
+    <homepage_testimonial_2_embed><![CDATA[http://youtube.com/embed/NYvrL5QrlGQ?autoplay=1&rel=0&showinfo=0&autohide=1]]></homepage_testimonial_2_embed>
+    <homepage_testimonial_2_descriere>
+        Nicoleta ne povesteste cum Helpie i-a schimbat viata ! Afla si tu cum !
+    </homepage_testimonial_2_descriere>
+    <homepage_testimonial_2_autor>A. Nicoleta</homepage_testimonial_2_autor>
+    <homepage_testimonial_2_autor_functie>Manager</homepage_testimonial_2_autor_functie>
+    <vezi_mai_multe>VEZI MAI MULTE</vezi_mai_multe>
+    <echipa_helpie_buton>Echipa Helpie</echipa_helpie_buton>
+    <termeni_conditii_buton>Termeni şi Condiţii</termeni_conditii_buton>
+    
+    <servicii_desc>
+      <![CDATA[
+        
+        La Helpie, noi înţelegem importanţa timpului tău şi din acest motiv serviciile noastre îţi creează ŢIE timp liber.<br/> 
+        Cu maniera unor aptitudini ridicate şi a unui staff dedicat, te asigurăm că nevoile tale vor fi rezolvate rapid în deplină siguranţă.<br/>
+        Tu te poţi ocupa de lucrurile importante din viaţa ta, îţi eficientizezi taskurile cu valoare ridicată pentru tine şi evoluţia ta ca individ, este mai rapidă. <b> Uşor, simplu şi garantat poţi face asta cu Helpie ! </b>
+        ]]>
+    </servicii_desc>
+    <pachete_title>PACHETE</pachete_title>
+    <pachete_desc><![CDATA[
+    Misiunea noastră este să optimizăm viaţa clienţilor noştri prin reducerea stresului şi a lucrului cu timpul liber. Helpie este un punct central de contact pentru oamenii ocupaţi şi care sunt presaţi de timp. Pentru că serviciul Helpie lucrează pentru nevoile tale şi nivelul de timp dorit, vei plăti doar un abonament lunar.
+        <br/>
+         <b>Fiecare pachet include serviciile atât pentru tine, cât şi pentru familia ta!</b>
+        ]]>
+    </pachete_desc>
+    <comanda_acum>Comandă acum</comanda_acum>
+    
+    
+    <corporate_title>COMPANIA TA RĂMÂNE ORGANIZATĂ, EFICIENTĂ ŞI PRODUCTIVĂ</corporate_title>
+   
+    <corporate_desc>
+         <![CDATA[
+         <b>Sunt angajaţii tăi mulţumiţi cu viaţa lor privată ? </b><br/><br/>
+        Poţi să le faci un super serviciu şi să-i ajuţi să economisească timp de odihnă, relaxare sau dezvoltare. <br/>
+        Creează această stare pentru angajatul tău şi garantat rezultatele companiei tale vor creşte. Helpie doreşte să îmbunătăţească calitatea muncii angajaţilor tăi. 
+<br/><br/><b> Ne poţi lăsa datele de contact şi vei primi un email cu oferta pentru angajaţii tăi.</b>
+         ]]>
+    </corporate_desc>
+    <cere_oferta>Cere oferta</cere_oferta>
+    <nume>Nume</nume>
+    <prenume>Prenume</prenume>
+    <telefon>Telefon</telefon>
+    <compania>Compania</compania>
+    
+    <!-- contact -->
+    <echipa_helpie>Echipa Helpie</echipa_helpie>
+    <lasa_ne_mesaj>Lasă-ne un mesaj</lasa_ne_mesaj>
+    <contact_nume>Nume</contact_nume>
+    <mesaj>Mesaj</mesaj>
+    <trimite>Trimite</trimite>
+    <password>Parola</password>
+    
+    <!-- register -->
+    <modalitate_plata>Modalitate de plată</modalitate_plata>
+    <alege_pachet>Alege pachet</alege_pachet>
+    <card_online>Card Online</card_online>
+    <transfer_bancar>Transfer bancar</transfer_bancar>
+    <inregistrare>Înregistrare</inregistrare>
+    
+    <!--helpie user menu after login-->
+    <welcome>Bine ai venit la Helpie</welcome>
+    <utilizator>Utilizator</utilizator>
+    <mesaje>Mesaje</mesaje>
+    <solicitare_servicii>Solicitare Servicii</solicitare_servicii>
+    <tranzactii>Tranzacţii</tranzactii>
+    <date_profil>Date Profil</date_profil>
+    <inapoi_in_site>Înapoi in site</inapoi_in_site>
+    
+    <pachet_inactiv>Pachetul dumneavoastră este inactiv</pachet_inactiv>
+    <pachet_expirat>Pachetul dumneavoastră a expirat la data:</pachet_expirat>
+    
+    <tip_notificari>Tip Notificări</tip_notificari>
+    <cont_helpie>Cont Helpie</cont_helpie>
+    <alege_foto>Alege foto profil</alege_foto>
+    <salveaza>Salvează</salveaza>
+    <pret>Preţ</pret>
+    <expira>Expiră la</expira>
+    
+    <!-- messages -->
+    <mesaj_nou>MESAJ NOU</mesaj_nou>
+    <mesaje_primite>Primite</mesaje_primite>
+    <mesaje_trimise>Trimise</mesaje_trimise>
+    <!-- solicitare task -->
+    <alege_serviciul>Alege Serviciul</alege_serviciul>
+    <alege_data>Alege Data</alege_data>
+    <observatii>Observaţii</observatii>
+    <solicita>Solicită</solicita>
+    <detaliile_taskului>Adaugă fotografie cu detalii taskului(ex. Factura)</detaliile_taskului>
+    
+    <!--transactions-->
+    <tip_tranzactie>Tip Tranzacţie</tip_tranzactie>
+    <toate>Toate</toate>
+    <alimentare>Alimentare</alimentare>
+    <cheltuieli>Cheltuieli</cheltuieli>
+    <interval>Interval</interval>
+    <de_la>De la</de_la>
+    <pana_la>Până la</pana_la>
+    <data>Data</data>
+    <detalii>Detalii</detalii>
+    <sold_ramas>Sold Rămas</sold_ramas>
+    <alimenteaza_cont>Alimentează Cont</alimenteaza_cont>
+    <reinoieste_pachet>Reînoieşte Pachet</reinoieste_pachet>
+    <extras_cont>Descarcă extras de cont</extras_cont>
+    <sold>SOLD</sold>
+    <valoarea_alimentarii>Valoarea Alimentarii</valoarea_alimentarii>
+    <alimenteaza>Alimentează</alimenteaza>
+    <alimenteaza_desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </alimenteaza_desc>
+    <contul_meu>Contul Meu</contul_meu>
+    
+    <echipa>Echipa</echipa>
+    <echipa_slogan>Misiunea noastră este să iţi facem ŢIE timp liber</echipa_slogan>
+    <blog_desc>Helpie este platforma doritorilor de timp liber. Este comunitatea celor care aleg să facă mai mult, mai bine, mai plăcut cu viaţa lor. Helpie te scapă de lucrurile birocratice şi de rutină, şi te provoacă să devii cel mai bun TU. </blog_desc>
+    <donam_fericire>
+    <![CDATA[ 
+        <h2>PS:Donăm Fericire !</h2>
+        <p>Din preţul abonamentului lunar Helpie, se vor duce automat 5,8,10 RON către fundaţia:</p>
+        <p>So.Si.Se.Sa - <a target="_blank" href="http://sosisesa.ro">sosisesa.ro</a>. </p>
+    ]]>
+    </donam_fericire>
+    <donam_fericire_subtitlu>Suma care s-a strâns este:</donam_fericire_subtitlu>
+    
+    
+    <!-- mesaje de informare utilizator-->
+    <atentie>Atentie</atentie>
+    <no_transaction> <![CDATA[Nu am gasit nicio tranzactie. <br/> Incercati sa dezactivati filtrele daca aveti.]]></no_transaction>
+    <data_incorecta>Data este incorecta, va rugam alegeti o data din viitor.</data_incorecta>
+    <alege_data_finalziare> <![CDATA[Introduceti data de finalizare<br/>]]></alege_data_finalziare>
+    <alege_serviciu> <![CDATA[Alegeti Serviciul<br/>]]></alege_serviciu>
+    <confirmare_solicitare_task>Solicitarea a fost creata cu succes si atribuita operatorului:</confirmare_solicitare_task>
+    <confirmare_mesaj>Mesajul a fost trimis cu success catre operatorul:</confirmare_mesaj>
+    <modificari_salvate>Modificarile au fost salvate cu success</modificari_salvate>
+    <corporate_completare_date>Va rugam completati datele de contact</corporate_completare_date>
+    <corporate_cerere_trimisa>Va multumim. Cererea a fost trimisa</corporate_cerere_trimisa>
+    <contact_mesaj_trimis>Va multumim. Mesajul a fost trimis</contact_mesaj_trimis>
+    <adresa>Str Barbu Văcărescu nr 42A Bucuresti</adresa>
+    <blog_link>http://www.blog.helpie.ro</blog_link>
+    
+    <invalid_contact_email><![CDATA[Adresa de email este incorecta<br><br>]]></invalid_contact_email>
+    <invalid_contact_message><![CDATA[Introduceti mesajul. Minim 10 caratere<br><br>]]></invalid_contact_message>
+    <invalid_contact_name><![CDATA[Introduceti numele dvs.<br><br>]]></invalid_contact_name>
+
+    
+    <login_introdu_date>Please enter your credidentials in below input fields:</login_introdu_date>
+    <remember>Aminteste?</remember>
+
+    <importanta_timpului_tau>assets/frontend/layout-reloaded/la_helpie_noi_intelegem.png</importanta_timpului_tau>
+    <vezi_cum>assets/frontend/layout-reloaded/vezi-cum.png</vezi_cum>
+    <afla_mai_multe>assets/frontend/layout-reloaded/afla_mai_multe.png</afla_mai_multe>
+    <btn_play>assets/frontend/layout-reloaded/playBtn.png</btn_play>
+
+
+    <despre_noi_>DESPRE NOI</despre_noi_>
+    <alege_fericirea>Alege fericirea</alege_fericirea>
+    <fati_cont_acum>Fa-ti cont acum</fati_cont_acum>
+    <sau_intra_in_cont>
+        <![CDATA[
+        sau <a href="/user/login">intra</a> in cont
+        ]]>
+    </sau_intra_in_cont>
+    <cat_este_de_simplu>
+        <![CDATA[Cat de simplu este?<span class="Bold"> SUPER simplu.</span>]]>
+    </cat_este_de_simplu>
+    
+    <choose_package_sub>
+        Alege unul din pachetele care ți se potrivește
+    </choose_package_sub>
+    
+    <notifica_ne_serviciile_dorite>Notifica-ne serviciile dorite</notifica_ne_serviciile_dorite>
+    <notifica_ne_serviciile_dorite_sub>
+        Prin SMS, E-mail, poză, mobile.
+    </notifica_ne_serviciile_dorite_sub>
+    
+    <relaxeaza_te>Relaxeaza-te</relaxeaza_te>
+    <relaxeaza_te_sub>
+        Fă ce vrei cu timpul liber
+    </relaxeaza_te_sub>
+    
+    <afla_mai_multe_>
+        Afla mai multe
+    </afla_mai_multe_>
+    <download_aici_>assets/frontend/layout-reloaded/download-aici.png</download_aici_>
+    
+    <download_aplicatie>Download application</download_aplicatie>
+    <all_rights_reserved>
+        toate drepturile de copyright rezervate@helpie.ro  2014
+    </all_rights_reserved>
+    
+    <month>Luna</month>
+    
+    <with_helpie_its_simple_and_easy>
+        <![CDATA[
+        Cu aplicatia 
+        <img src="../assets/frontend/layout-reloaded/helpie-text.png" alt="HELPIE"/>
+        totul este simplu si usor
+        ]]>
+    </with_helpie_its_simple_and_easy>
+</root>

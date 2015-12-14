@@ -1,0 +1,286 @@
+<root>
+    <!-- header -->
+    <servicii>Services</servicii>
+    <helpie_logo>assets/frontend/layout-reloaded/helpie_logo_en.png</helpie_logo>
+    <helpie_logo_admin>assets/frontend/layout/white_logo_en.png</helpie_logo_admin>
+    <helpie_index_image>assets/frontend/layout/helpie_banner_en.png</helpie_index_image>
+    <facebook_link>https://www.facebook.com/pages/Helpiero-English/321506114690896</facebook_link>
+    <google_link>https://plus.google.com/112040464551746866321/posts</google_link>
+    <twitter_link>https://twitter.com/helpieromania</twitter_link>
+    <linked_link>https://www.linkedin.com/company/helpie-ro</linked_link>
+    <pinterest_link>http://www.pinterest.com/helpiero/</pinterest_link>
+    <youtube_link>https://www.youtube.com/channel/UCl4gRtIgzPHqluBGq2imr3A</youtube_link>
+    
+    <timp_liber_title>Why do you want to have free time:</timp_liber_title>
+    <timp_liber_desc>
+        Our mission is to optimize our customers' lives by reducing stress and work with spare time. Helpie is a central point of contact for people who are busy and pressed by time. Because Helpie works for your needs and the desired time, you will only pay a monthly subscription.
+    </timp_liber_desc>
+    <vezi_lista_servicii>See the full list of services here</vezi_lista_servicii>
+    <alatura_te_comunitatii_mobile>JOIN THE SUPER COMMUNITY OF PEOPLE THAT HAVE FREE TIME:
+    </alatura_te_comunitatii_mobile> 
+    <header_video>https://www.youtube.com/watch?v=Z4hBkgDH71o</header_video> 
+
+    <alatura_te_comunitatii_desktop>
+        <![CDATA[JOIN THE SUPER COMMUNITY OF<br/>
+PEOPLE THAT HAVE FREE TIME:
+]]>
+    </alatura_te_comunitatii_desktop>  
+    <comunitate> 
+        We at Helpie, understand the importance of your time and therefore our services create spare time for YOU. With high skills and a dedicated staff, we assure you that your needs will be quickly and safely resolved. You can deal with the important things in your life, you streamline tasks with high value for you and your evolution as an individual is faster.
+        With Helpie you can do that in an easy, simple and guaranteed manner!
+    </comunitate>
+    <comunitate_video>//www.youtube.com/embed/WjxhnYwRcrY</comunitate_video>
+    <cum_functioneaza_title>HOW  IT  WORKS:</cum_functioneaza_title>
+    <cum_functioneaza_footer>How it works</cum_functioneaza_footer>
+    <cum_functioneaza_desc>
+       <![CDATA[
+        <li>
+        Choose the service package that suits you
+With a wide range of services, Helpie is there for you to create spare time for you. Work with us by means of any method: online, mobile, email, text message.
+
+        </li>
+        <li>	
+        Helpie helps you with your daily tasks. If you have a daily TO DO list, we do solve it. Forward the tasks to us and your spare time will definitely increase. From your Helpie account you request the services, send pictures of the bills, etc.
+</li>
+        <li>
+        We pay / solve and send the confirmations by phone, email, text message or Helpie account. In your Helpie account, available for desktop and mobile, you can automatically see whenever you want your account balance.
+	</li>
+         ]]>
+    </cum_functioneaza_desc>   
+    <alege_fericirea>CHOOSE HAPPINESS</alege_fericirea> 
+    <alege_fericirea_desc>Start doing what you know best and we will handle the rest!</alege_fericirea_desc>
+    <alege_fericirea_photo_1>assets/frontend/layout/home_pas1_en.png</alege_fericirea_photo_1>
+    <alege_fericirea_photo_2>assets/frontend/layout/home_pas2_en.png</alege_fericirea_photo_2>
+    <alege_fericirea_photo_3>assets/frontend/layout/home_pas3_en.png</alege_fericirea_photo_3>
+    <beneficii_title>BENEFITS:</beneficii_title>
+    <beneficii_desc>
+         <![CDATA[
+         <b>Are you ready to live smart?</b>
+         <ul>
+        <li>Saved time</li>
+        <li>Safety</li>
+        <li>Quality of the provided service</li>
+        <li>Get help quickly</li>
+        <li>Fast communication: skype, phone, text message.</li>
+        <li>Fast and secure payments</li>
+        <li>Free consulting for any of the services</li>
+        </ul>
+        ]]>
+    </beneficii_desc>
+    <vezi_pachete_btn>See  Packages</vezi_pachete_btn>
+    <testimoniale_title>TESTIMONIALS</testimoniale_title>
+    <homepage_testimonial_1>https://www.youtube.com/watch?v=RlpdzHguLAg</homepage_testimonial_1>
+    <homepage_testimonial_1_thumb>http://img.youtube.com/vi/RlpdzHguLAg/0.jpg</homepage_testimonial_1_thumb>
+    <homepage_testimonial_1_descriere>
+        Alexandru tells how HELPIE helped him to reach 5895 M Kilimanjaro, Aconcagua and Elbrus 6962 M 5642 M
+    </homepage_testimonial_1_descriere>
+    <homepage_testimonial_1_autor>Alexandru</homepage_testimonial_1_autor>
+    <homepage_testimonial_1_autor_functie>Manager</homepage_testimonial_1_autor_functie>
+    
+    <homepage_testimonial_2>https://www.youtube.com/watch?v=WjxhnYwRcrY</homepage_testimonial_2>
+    <homepage_testimonial_2_embed><![CDATA[http://youtube.com/embed/WjxhnYwRcrY?autoplay=1&rel=0&showinfo=0&autohide=1]]></homepage_testimonial_2_embed>
+    <homepage_testimonial_2_descriere>
+        Nicoleta is telling us how Helpie changed her life.
+    </homepage_testimonial_2_descriere>
+    <homepage_testimonial_2_autor>A. Nicoleta</homepage_testimonial_2_autor>
+    <homepage_testimonial_2_autor_functie>Manager</homepage_testimonial_2_autor_functie>
+    <vezi_mai_multe>SEE MORE</vezi_mai_multe>
+    <echipa_helpie_buton>Helpie Team</echipa_helpie_buton>
+    <termeni_conditii_buton>Terms and Conditions</termeni_conditii_buton>
+    
+    <servicii_desc>
+          <![CDATA[
+        We at Helpie, understand the importance of your time and therefore our services create spare time for YOU. With high skills and a dedicated staff, we assure you that your needs will be quickly and safely resolved.<br/> You can deal with the important things in your life, you streamline tasks with high value for you and your evolution as an individual is faster.
+      <b> With Helpie you can do that in an easy, simple and guaranteed manner! </
+         ]]>
+    </servicii_desc>
+    
+    <pachete_title>package</pachete_title>
+    <pachete_title_pg>
+            <![CDATA[
+        Choose the <span>HELPIE</span> package
+         ]]></pachete_title_pg>
+    <pachete_desc>  <![CDATA[
+        Our mission is to optimize our customers' lives by reducing stress and work with spare time. Helpie is a central point of contact for people who are busy and pressed by time. Because Helpie works for your needs and the desired time, you will only pay a monthly subscription.
+      
+        <b>Each package includes services for both you and your family</b>
+        ]]>
+    </pachete_desc>
+    <comanda_acum>Order now</comanda_acum>
+    
+    
+    <corporate_title>Your company shall be organized, efficient and productive</corporate_title>
+    <corporate_subtitle>Are your employees satisfied with their personal life?</corporate_subtitle>
+    <corporate_desc>
+         <![CDATA[
+         You can render them a great service and help them save time for rest, relaxation or development.<br/> Create this state of mind for your employee and your company's results will definitely increase. Helpie wants to improve the quality of your employees’ work. 
+<br/><b>You give us your contact data and you will receive an email with an offer for your employees.</b>
+         ]]>
+    </corporate_desc>
+    <cere_oferta>Ask for offer</cere_oferta>
+    <nume>Last name</nume>
+    <prenume>First name</prenume>
+    <telefon>Phone</telefon>
+    <compania>Company</compania>
+    
+    <!-- contact -->
+    <echipa_helpie>Helpie Team</echipa_helpie>
+    <lasa_ne_mesaj>Leave us a message</lasa_ne_mesaj>
+    <mesaj>Message</mesaj>
+    <contact_nume>Name</contact_nume>
+    <trimite>Send</trimite>
+    <password>Password</password>
+    
+    <!-- register -->
+    <modalitate_plata>Payment method</modalitate_plata>
+    <alege_pachet>Choose package</alege_pachet>
+    <card_online>Card Online</card_online>
+    <transfer_bancar>bank transfer</transfer_bancar>
+    <inregistrare>Register</inregistrare>
+    
+    <!--helpie user menu after login-->
+    <welcome>Welcome to helpie</welcome>
+    <utilizator></utilizator>
+    <mesaje>Messages</mesaje>
+    <solicitare_servicii>Request for Services</solicitare_servicii>
+    <tranzactii>Transactions</tranzactii>
+    <date_profil>Settings</date_profil>
+    <inapoi_in_site>Back to site</inapoi_in_site>
+    
+    <pachet_inactiv>Your package is inactive</pachet_inactiv>
+    <pachet_expirat>Your package has expired on:</pachet_expirat>
+    
+    <tip_notificari>Notifications Type</tip_notificari>
+    <cont_helpie>Helpie Account</cont_helpie>
+    <alege_foto>Choose profile picture</alege_foto>
+    <salveaza>Save</salveaza>
+    <pret>Price</pret>
+    <expira>Expires on</expira>
+    
+    <!-- messages -->
+    <mesaj_nou>NEW MESSAGE</mesaj_nou>
+    <mesaje_primite>Received</mesaje_primite>
+    <mesaje_trimise>Sent</mesaje_trimise>
+    <!-- solicitare task -->
+    <alege_serviciul>Choose Service</alege_serviciul>
+    <alege_data>Choose Date</alege_data>
+    <observatii>Observations</observatii>
+    <solicita>Request</solicita>
+    <detaliile_taskului>Add photo with the task details(eg. Invoice)</detaliile_taskului>
+    
+    <!--transactions-->
+    <tip_tranzactie>Transaction Type</tip_tranzactie>
+    <toate>All</toate>
+    <alimentare>Recharge</alimentare>
+    <cheltuieli>Expenses</cheltuieli>
+    <interval>Interval</interval>
+    <de_la>From</de_la>
+    <pana_la>To</pana_la>
+    <data>Date</data>
+    <detalii>Details</detalii>
+    <sold_ramas>Remained Balance</sold_ramas>
+    <alimenteaza_cont>Recharge Account</alimenteaza_cont>
+    <reinoieste_pachet>Renew Package</reinoieste_pachet>
+    <extras_cont>Download statement</extras_cont>
+    <sold>BALANCE</sold>
+    <valoarea_alimentarii>Recharge Value</valoarea_alimentarii>
+    <alimenteaza>Recharge</alimenteaza>
+    <alimenteaza_desc></alimenteaza_desc>
+    <contul_meu>My Account</contul_meu>
+    
+    <echipa>Team</echipa>
+    <echipa_slogan>Our mission is to MAKE free time for YOU</echipa_slogan>
+    <blog_desc>Helpie.ro is the platform created for people who wish to have more free time. It is the community of those who choose to do more, to do better in their lives and have more fun.</blog_desc>
+    <donam_fericire><![CDATA[
+        <h2>PS: We donate happiness! </h2>
+        <p>From the Helpie monthly subscription, there will be automatically transfered 5,8,10 RON to </p>
+        <p>fundation So.Si.Se.Sa - <a target="_blank" href="http://sosisesa.ro">sosisesa.ro</a>. </p>
+        
+        ]]>.
+    </donam_fericire>
+    <donam_fericire_subtitlu>Raised amount:</donam_fericire_subtitlu>
+    
+    <!-- mesaje de informare utilizator-->
+    <atentie>Attention</atentie>
+    <no_transaction> <![CDATA[We did not find any transaction. <br/> Try disabling the filters if you have]]></no_transaction>
+    <data_incorecta>Date is incorrect, please choose a date in the future.</data_incorecta>
+    <alege_data_finalziare> <![CDATA[Enter finishing date <br/>]]></alege_data_finalziare>
+    <alege_serviciu> <![CDATA[Select Service <br/>]]></alege_serviciu>
+    <confirmare_solicitare_task>The request was successfully created and assigned to the operator:</confirmare_solicitare_task>
+    <confirmare_mesaj>Your message has been successfully sent to  operator:</confirmare_mesaj>
+    <modificari_salvate>The changes were successfully saved </modificari_salvate>
+    <corporate_completare_date>Please enter the contact information</corporate_completare_date>
+    <corporate_cerere_trimisa>Thank you. The request was sent</corporate_cerere_trimisa>
+    <contact_mesaj_trimis>Thank you. The message was sent</contact_mesaj_trimis>
+    <adresa>Str Barbu Văcărescu nr 42A Bucuresti</adresa>
+    <blog_link>http://www.blog.helpie.ro/en</blog_link>
+    
+    
+    <invalid_contact_email><![CDATA[Invalid email address<br><br>]]></invalid_contact_email>
+    <invalid_contact_message><![CDATA[Please enter yout message.<br><br>]]></invalid_contact_message>
+    <invalid_contact_name><![CDATA[Please eneter your name.<br><br>]]></invalid_contact_name>
+
+
+    <login_introdu_date>Please enter your credidentials in below input fields:</login_introdu_date>
+    <remember>Remember?</remember>
+    <importanta_timpului_tau>assets/frontend/layout-reloaded/la_helpie_noi_intelegem_en.png</importanta_timpului_tau>
+    <vezi_cum>assets/frontend/layout-reloaded/vezi-cum_en.png</vezi_cum>
+    <afla_mai_multe>assets/frontend/layout-reloaded/afla_mai_multe_en.png</afla_mai_multe>
+    <btn_play>assets/frontend/layout-reloaded/playBtn.png</btn_play>
+    
+    <despre_noi_>ABOUT US</despre_noi_>
+    
+    <alege_fericirea>Choose happiness</alege_fericirea>
+    <fati_cont_acum>Create an account</fati_cont_acum>
+    <sau_intra_in_cont>
+        <![CDATA[or just <a href="/user/login">log in</a> to you account]]>
+    </sau_intra_in_cont>
+    
+    <cat_este_de_simplu>
+        <![CDATA[How simple it is?<span class="Bold"> As simple as</span>]]>
+    </cat_este_de_simplu>
+    
+    <choose_package_sub>
+        Choose one of our packages that suits you best.
+    </choose_package_sub>
+    
+    <notifica_ne_serviciile_dorite>Tell us what services you want</notifica_ne_serviciile_dorite>
+    <notifica_ne_serviciile_dorite_sub>
+       By SMS, E-mail, picture or mobile.
+    </notifica_ne_serviciile_dorite_sub>
+    
+    <relaxeaza_te>Relax</relaxeaza_te>
+    <relaxeaza_te_sub>
+        Do what you like with your free time.
+    </relaxeaza_te_sub>
+    
+    <afla_mai_multe_>
+        Learn more
+    </afla_mai_multe_>
+    
+    <with_helpie_its_simple_and_easy>
+        <![CDATA[
+        With
+        <img src="../assets/frontend/layout-reloaded/helpie-text.png" alt="HELPIE"/>
+        application everything is easy and simple
+        ]]>
+    </with_helpie_its_simple_and_easy>
+    
+    <download_aici_>assets/frontend/layout-reloaded/download-aici_en.png</download_aici_>
+    
+    <download_aplicatie>Download application</download_aplicatie>
+    <all_rights_reserved>
+        All copyrights reserved by office@helpie.ro
+    </all_rights_reserved>
+    
+    <month>Month</month>
+    
+    <nu_uita_>
+       <![CDATA[
+        With
+        <img src="assets/frontend/layout-reloaded/helpie-text.png" alt="HELPIE"/>
+        application everything is easy and simple
+        ]]> 
+    </nu_uita_>
+    
+</root>

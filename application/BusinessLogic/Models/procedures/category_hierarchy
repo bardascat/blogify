@@ -1,0 +1,92 @@
+drop procedure if exists category_hierarchy;
+drop temporary table if exists hier;
+drop temporary table if exists tmp;
+
+delimiter #
+
+create procedure category_hierarchy
+(
+in p_id_category smallint unsigned,
+in max_depth smallint
+)
+begin
+
+declare v_done tinyint unsigned default 0;
+declare v_depth smallint unsigned default 0;
+
+create temporary table hier(
+ id_parent smallint unsigned, 
+ id_category smallint unsigned, 
+ depth smallint unsigned default 0
+)engine = memory;
+
+insert into hier select id_parent, id_category, v_depth from categories where id_category = p_id_category;
+
+create temporary table tmp engine=memory select * from hier;
+
+while not v_done do
+
+    if exists( select 1 from categories p inner join hier on p.id_parent = hier.id_category and hier.depth = v_depth) then
+
+        insert into hier 
+            select p.id_parent, p.id_category, v_depth + 1 from categories p 
+            inner join tmp on p.id_parent = tmp.id_category and tmp.depth = v_depth;
+
+        set v_depth = v_depth + 1;          
+
+        truncate table tmp;
+        insert into tmp select * from hier where depth = v_depth;
+
+    else
+        set v_done = 1;
+    end if;
+
+end while;
+
+if(max_depth<0) 
+then
+
+select 
+p.id_category,
+p.thumb,p.cover,
+p.name as category_name,
+p.nr_items as nr_items,
+p.position as position,
+p.layout as layout,
+p.slug as category_slug,
+b.id_category as id_parent,
+b.name as parent_category_name,
+hier.depth
+from 
+hier
+inner join categories p on hier.id_category = p.id_category
+left outer join categories b on hier.id_parent = b.id_category
+order by
+depth asc,position asc,p.name asc;
+
+else
+select 
+p.id_category,
+p.thumb,p.cover,
+p.name as category_name,
+p.position as position,
+p.slug as category_slug,
+p.nr_items as nr_items,
+p.layout as layout,
+b.id_category as id_parent,
+b.name as parent_category_name,
+hier.depth
+from 
+hier
+inner join categories p on hier.id_category = p.id_category
+left outer join categories b on hier.id_parent = b.id_category
+where hier.depth<=max_depth
+order by
+depth asc,position asc,p.name asc;
+end if;
+
+drop temporary table if exists hier;
+drop temporary table if exists tmp;
+
+end #
+

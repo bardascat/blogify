@@ -1,0 +1,50 @@
+drop procedure if exists get_root_categories;
+drop temporary table if exists hier;
+
+DELIMITER $$
+
+CREATE PROCEDURE `get_root_categories`(
+in p_id_category smallint unsigned
+)
+begin
+
+declare v_done tinyint unsigned default 0;
+declare v_depth tinyint unsigned default 0;
+set v_done=p_id_category;
+
+create temporary table hier(
+id_parent smallint unsigned,
+id_category smallint unsigned,
+v_depth smallint unsigned
+)engine = memory;
+
+while v_done do
+
+       insert into hier
+       select p.id_parent, p.id_category, v_depth + 1 from categories p
+       where p.id_category=v_done;
+
+       select p.id_parent  into v_done  from categories p where p.id_category=v_done;
+           
+
+       set v_depth = v_depth + 1;          
+
+end while;
+
+
+select
+hier.id_category,
+hier.id_parent,
+hier.v_depth,
+c.name as category_name,
+c.thumb,
+c.cover,
+c.slug
+from
+hier
+join categories c on (hier.id_category=c.id_category)
+order by hier.v_depth desc;
+
+drop temporary table if exists hier;
+
+end

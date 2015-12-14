@@ -1,0 +1,692 @@
+textarea {
+    overflow: auto !important;
+    resize: both !important;
+}
+
+.float_right {
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+.float_left {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.domargin {
+    margin: 0 2px;
+}
+
+.ric_graf_tabel {
+    padding: 12px;
+}
+
+.ric_graf_tabel * {
+    font-size: 11px;
+}
+
+.ric_graf_tabel td {
+    border-right: solid 1px #99BBE8;
+    border-bottom: solid 1px #99BBE8;
+}
+
+.ric_graf_tabel .small_font {
+    font-size: 9px;
+}
+
+.ric_graf_tabel td.no_border {
+    border: none !important;
+}
+
+.ric_graf_tabel td.inner_td {
+    border-bottom: none !important;
+}
+
+.ric_graf_tabel td.border_top {
+    border-top: solid 1px #99BBE8;
+}
+
+.ric_graf_tabel td.border_left {
+    border-left: solid 1px #99BBE8;
+}
+
+.ric_graf_tabel td.no_right_border {
+    border-right: solid 1px transparent !important;
+}
+
+.x-sel-list-span {
+    width: 55px;
+    display: block;
+    float: left;
+    font-size: 11px;
+}
+
+.x-grid3-cell-inner a.x_celllink:link, .x-grid3-cell-inner a.x_celllink:visited {
+    color: #424242;
+}
+
+.x-grid3-cell-inner a.x_celllink:hover {
+    color: #000;
+}
+
+.x-grid-row-disabled-x {
+    background-color: #F3F3F3 !important;
+}
+
+.x-grid-row-disabled-x * {
+    color: #7a7a7a !important;
+}
+
+.x-grid-row-canceled-x {
+    background-color: #f9dbe0 !important;
+}
+
+.x-grid-row-canceled-x * {
+    color: #7a0303 !important;
+}
+
+.x-field-readonly-frm {
+    background: none !important;
+    background-color: transparent !important;
+    border-style: dotted;
+}
+
+.full_cell {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #f4f8fc;
+}
+
+.x-grid3-row-selected .full_cell {
+    background-color: #c4e0fc;
+}
+
+.x-nec-aprobat {
+    background-color: #ebf7ea;
+}
+
+.x-nec-respins {
+    background-color: #f7e2dc;
+}
+
+.x-grid3-row-selected .x-nec-aprobat {
+    background-color: #d0edce;
+}
+
+.x-grid3-row-selected .x-nec-respins {
+    background-color: #f9c8c0;
+}
+
+.full_cell_border {
+    background-color: #FFF;
+}
+
+.x-right-aligned-checkbox {
+    text-align: right;
+}
+
+.full_cell_border {
+    border: solid 1px #cfd1d0;
+    padding: 2px 6px 2px 2px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+.x-grid3-row-over .full_cell_border {
+    background-color: #FFF;
+    border: solid 1px #FFF;
+}
+
+.x-grid3-row-selected .full_cell_border {
+    border: solid 1px #A8A8A8;
+    background-color: #FFF;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.x_tabl_calendar_planif {
+    padding: 4px;
+}
+
+.x_tabl_calendar_planif table tr td {
+    border-right: solid 1px #a5a5a5;
+    text-align: center;
+}
+
+.x_tabl_calendar_planif table tr td div.cell_full {
+    background-color: #2d4791 !important;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* stari pe culori */
+.xsts_blue {
+    background-color: #F4F8FC;
+}
+
+.x-grid3-row-selected .xsts_blue {
+    background-color: #C4E0FC;
+}
+
+.xsts_yellow {
+    background-color: #fff5d8;
+}
+
+.x-grid3-row-selected .xsts_yellow {
+    background-color: #ffe7a0;
+}
+
+.xsts_green {
+    background-color: #EBF7EA;
+}
+
+.x-grid3-row-selected .xsts_green {
+    background-color: #D0EDCE;
+}
+
+.xsts_red {
+    background-color: #F7E2DC;
+}
+
+.x-grid3-row-selected .xsts_red {
+    background-color: #F9C8C0;
+}
+
+.y-small-form_space {
+    overflow-x: hidden !important;
+}
+
+.y-small-form_space .x-box-inner {
+    height: 23px !important;
+}
+
+.y-small-form_space .x-form-check-wrap {
+    padding: 0;
+}
+
+.x-aloc-absent {
+    color: #FF0000 !important;
+}
+
+/* suprascrieri form */
+.x-form-item {
+    margin-bottom: 1px
+}
+
+.x-fieldset {
+    padding: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+/* suprascriere grid */
+/*.x-grid3-cell-inner, .x-grid3-hd-inner{padding: 2px 2px 2px 3px !important;}*/
+.x-grid3-cell-inner {
+    -moz-user-select: text !important;
+    -khtml-user-select: text !important;
+    -webkit-user-select: text !important;
+}
+
+.image_file_bg {
+    height: 100%;
+    /*background: #FFF url(../img/bg.jpg) no-repeat center;*/
+}
+
+.icon-tab-preloader {
+    background-image: url(../img/loader.gif) !important;
+}
+
+#center-title {
+    position: relative;
+    text-align: center;
+    top: 47%;
+    left: 37%;
+    background-color: #FFF;
+    padding: 12px 24px;
+    width: 20%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.status-incident .x-btn-text {
+    font-weight: bold !important;
+}
+
+.status-incident .red .x-btn-text {
+    color: #ff0000 !important;
+}
+
+.x-top-toast-wrapper {
+    color: #000;
+    border: 1px solid #99BBE8;
+    background-color: #EFFFFF;
+    padding: 0;
+    margin-bottom: 4px;
+    font: normal 10px verdana, arial, helvetica !important;
+    text-align: left;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.x-top-toast-content {
+    padding: 1px 2px;
+    padding-left: 6px;
+    font: normal 10px verdana, arial, helvetica !important;
+    color: #000;
+    text-align: left !important;
+    background-color: #FFFFFF;
+    width: 304px;
+    vertical-align: top !important;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-user-select: none;
+}
+
+.x-top-toast-icon {
+    width: 20px;
+    vertical-align: top !important;
+    -moz-user-select: none;
+}
+
+.x-top-toast-innercontent {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #000;
+}
+
+.x-top-toast-title {
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    height: 20px;
+    color: #000;
+}
+
+.x-wite-space-normal {
+    white-space: normal !important;
+}
+
+.x-toast-wrapper {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #000;
+    border: 1px solid #99BBE8;
+    background-color: #EFF9FF;
+    padding: 1px;
+    margin-bottom: 4px;
+}
+
+.x-toast-content {
+    border-top: 1px solid #EFEFEF;
+    padding: 4px 6px;
+    margin-top: 4px;
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.x-toast-title {
+    padding: 3px 0 3px;
+    padding-left: 20px !important;
+    margin-left: 3px !important;
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    color: #000;
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+    /*white-space: normal  !important;*/
+}
+
+.x-status-bold-text {
+    font-weight: bold !important;
+    margin-top: 4px;
+    color: #FFF;
+    background-color: #FF0000;
+    border: solid 1px #bc1c1c;
+    padding: 0 4px !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.x-status-text {
+    font-weight: bold !important;
+    margin-top: 4px;
+    margin-right: 6px;
+    color: #FFF;
+
+    padding: 0 4px !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.x-status-bold-text-blue {
+    border: solid 1px #304ea0;
+    background-color: #4869ca;
+    font-weight: bold !important;
+
+    color: #FFF;
+
+    padding: 0 4px !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.x-statusbar .x-status-busy {
+    background-color: #FF0000;
+    border: solid 1px #bc1c1c;
+}
+
+.x-status-bold-text-black {
+    font-weight: bold !important;
+
+    color: #FFF;
+    background-color: #000;
+    border: solid 1px #000;
+    padding: 2px 4px !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.x-form-active-filter, textarea.x-form-active-filter {
+    background-image: none !important;
+    background-color: #2F7F07 !important;
+    color: #FFF !important;
+}
+
+.x-readOnly {
+    background-image: none !important;
+    background-color: #c8f7f7 !important;
+}
+
+.x-form-invalid {
+    background-image: none !important;
+    background-color: #fceaea !important;
+}
+
+.red_bold_text {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.x-icon-div-float-right {
+    float: right;
+    height: 16px;
+    width: 16px;
+}
+
+.x-icon-div-float-left {
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+
+.slared {
+    color: #FF0000 !important;
+}
+
+.has-changed .x-tab-strip-text {
+    color: #FF0000 !important;
+}
+
+/*
+.x-toolbar button {color:#000 !important;}
+*/
+/*!
+ * Ext JS Library 3.3.0
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+.ux-mselect {
+    overflow: auto;
+    background: white;
+    position: relative; /* for calculating scroll offsets */
+    zoom: 1;
+    overflow: auto;
+}
+
+.ux-mselect-item {
+    font: normal 12px tahoma, arial, helvetica, sans-serif;
+    padding: 2px;
+    border: 1px solid #fff;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.ux-mselect-selected {
+    border: 1px dotted #a3bae9 !important;
+    background: #DFE8F6;
+    cursor: pointer;
+}
+
+.x-view-drag-insert-above {
+    border-top: 1px dotted #3366cc;
+}
+
+.x-view-drag-insert-below {
+    border-bottom: 1px dotted #3366cc;
+}
+
+.itemInCellGridBuble {
+    border: 1px solid #cfd1d0;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-bottom: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+/*** CSS pentru lucrari */
+
+/* style for the "buy" ActionColumn icon */
+.x-action-col-cell img.actiune {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../resources/img/fugue_wrench_screwdriver.png);
+}
+
+.x-action-col-cell img.addImg {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../resources/img/add.png);
+}
+
+.x-action-col-cell img.viewImg {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../resources/img/view.png);
+}
+
+.x-action-col-cell img.deleteImg {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../resources/img/delete.png);
+}
+
+.icon-action-img {
+    height: 16px;
+    width: 16px;
+}
+
+
+.no-repeat-bk {
+    background-repeat: no-repeat;
+}
+.padding-img{
+    width:22px;
+    height:0px;
+}
+
+
+/*** CSS login */
+
+.status-bar-login {
+    color: #333 !important;
+}
+
+.yellow-row {
+    background-color: #ccc !important;
+}
+
+.orange-row {
+    background-color: #f6a828 !important;
+}
+
+
+.editable-cell {
+    background-color: #c6eefb !important;
+}
+
+.x-grid3-row td {
+    -moz-user-select: text !important;
+}
+
+.disabled-cell {
+    background-color: #CCC !important;
+}
+
+/** EVALUARE CSS */
+.notificare_date {
+    padding-left: 3px;
+    background-color: #90ee90;
+}
+
+.text_r {
+    text-align: right;
+}
+
+.text_l {
+    text-align: left;
+}
+
+.tmpl_title1_l {
+    font-weight: bold;
+    background-color: #f39a00;
+    padding-left: 2px;
+    text-align: left;
+}
+
+.tmpl_title1_r {
+    font-weight: bold;
+    background-color: #f39a00;
+    padding-left: 2px;
+    text-align: right;
+}
+
+.tmpl_title2_r {
+    background-color: #90ee90;
+    padding-left: 2px;
+    text-align: right;
+}
+
+.tmpl_title2_l {
+    background-color: #90ee90;
+    padding-left: 2px;
+    text-align: left;
+}
+
+.tmpl_title3_l {
+    background-color: #d0edce;
+    padding-left: 2px;
+    text-align: left;
+}
+
+.tmpl_title3_r {
+    background-color: #d0edce;
+    padding-left: 2px;
+    text-align: right;
+}
+
+.tmpl_title4_l {
+    background-color: #ff6600;
+    padding-left: 3px;
+    text-align: left;
+}
+
+.tmpl_title4_r {
+    background-color: #ff6600;
+    padding-left: 3px;
+    text-align: right;
+}
+
+.tmpl_cell_num {
+    mso-number-format: "\#\,\#\#0\.00";
+}
+
+.tmpl_cell_text {
+    mso-number-format: "\@"; /*force text*/
+}
+
+br {
+    mso-data-placement: same-cell;
+}
+
+
+/** TERASAMENTE */
+
+.mesaj_necitit{
+    background-color: #D0E1F0 !important;
+}
+
+.disabled-record .x-grid3-col, .disabled-record .x-grid3-cell-inner{
+    background-color: #CCC;
+}
+.lucrare_depasita_grid_row .x-grid3-col, .lucrare_depasita_grid_row .x-grid3-cell-inner{
+    background-color: #F84C57;
+}
+.lucrare_fara_PVRF_grid_row .x-grid3-col, .lucrare_fara_PVRF_grid_row .x-grid3-cell-inner{
+    background-color: #FFFF00;
+}
+
+/* @catalin bux fix extjs grid: http://stackoverflow.com/questions/5305740/extjs-column-headers-and-row-data-are-not-aligned */
+table table caption,table table th,table table td {
+    padding : 0px !important;
+    margin : 0px !important;
+}
+/** TERASAMENTE END */
+
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: normal; /* changed from nowrap */
+}
+.my-disabled-panel {
+    opacity: .80;
+    -moz-opacity: .80;
+    filter: alpha(opacity=80);
+}
+ 
+.taskReminderCls
+{
+    background-image: url('../../assets/admin/resources/img/bell.png');
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.taskReminderSetActiveCls
+{
+    background-image: url('../../assets/admin/resources/icons/farm_tick.png');
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.task_closed{
+    text-decoration: line-through;
+}
+.task_canceled{
+    text-decoration: line-through;
+}
+/* eof */

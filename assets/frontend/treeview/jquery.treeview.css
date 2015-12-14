@@ -1,0 +1,60 @@
+#select_categories{
+    background-color: #FFF;
+    display: none;
+}
+#select_categories h1{
+    font-size: 16px;
+    color: #040096;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+        
+}
+
+.treeview .hitarea {
+	background-image: url('../../images_fdd/collapse_minus.png');
+	height: 16px;
+	width: 16px;
+        margin-top: 4px;
+	margin-right:4px;
+	float: left;
+        
+        
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+    background-color: none;
+	margin: 0;
+	
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+
+.treeview .expandable-hitarea { background-image: url('../../images_fdd/collapse_plus.png'); }
+
+
+.filetree li { padding: 3px 0 2px 16px; padding-bottom: 5px; font-size: 15px; }
+
+.no_childs{font-size: 13px;}
+.filetree .input{margin-top: 3px; margin-right: 3px; clear: both;}
+.filetree .name{}

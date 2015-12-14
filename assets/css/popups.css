@@ -1,0 +1,276 @@
+/* popups */
+*{margin: 0px; padding: 0px;}
+a{color: #000; text-decoration: none;}
+a:hover{color: #000; text-decoration: none;}
+
+body{ font-size:12px; font-family:'Arial';font-size: 12px;  }
+
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#popup{width: 500px; height: auto;
+       padding: 10px;
+
+
+}
+
+#popup .addFriend h1{
+    color: #00A8FF;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+#popup .addFriend h2{
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top:4px;
+    margin-bottom: 14px;
+
+}
+#popup .addFriend label{
+    color: #666666;
+    font-size: 14px;
+
+}
+#popup .addFriend .innerTable td{
+    padding-bottom: 7px;
+}
+#popup .addFriend input{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    color: #666666;
+    padding-left: 2px;
+    border: 1px solid #C6C6C6;
+}
+#blueButton{
+    float: left;
+    background-image: url('../images/blue_btn.png');
+    background-repeat: repeat-x;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.blueButton:hover{
+    color: #FFF;
+}
+.blueButton{
+    float: left;
+    background-color: #029FDA;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #FFF;
+    font-size: 13px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-width: 70px;
+}
+.orangeButton:hover{
+    color: #FFF;
+}
+.orangeButton{
+    float: left;
+    background-color: #fc9400;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #FFF;
+    font-size: 13px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-width: 70px;
+}
+
+#popup .vouchersList td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #E8E8E8;
+
+}
+#popup .vouchersList .serie{
+    font-size: 15px;
+}
+
+#popup .attributes{
+    width: 500px;
+    clear: both;
+}
+#popup .attributes .attribute{
+    float: left;
+    margin: 10px;
+    width: 100px;
+}
+#popup  .info a{color: #00A8FF; text-decoration: underline}
+#popup  .info{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+input[type="text"]{
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: block;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+    outline: medium none;
+    padding: 3px;
+    width: 160px;
+    font-size: 13px;
+}
+#popup .newProperty{
+    float: left;
+    margin-left: 10px;
+    display: none;
+}
+#popup .newProperty .blueButton{
+    height: 24px;
+    line-height: 24px;
+}
+#popup  .newProperty .input{
+
+}
+#popup  .newProperty .label{
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+#popup  .newProperty div{
+    float: left;
+}
+
+#popup .newsletter{
+    background-image: url("../images/plic.png");
+    background-position: 370px 230px;
+    background-repeat: no-repeat;
+    color: #494949;
+
+    font-family: Arial;
+    height: 400px;
+    padding: 15px 30px 30px;
+    width:635px;
+}
+#popup .newsletter_title{
+    border-bottom: 2px solid #E5E4D8;
+    color: #2C2C2C;
+    font-family: Arial;
+    font-size: 22px;
+    margin: auto auto 30px;
+
+    padding-bottom: 6px;
+    text-align: center;
+    width: 170px;
+}
+#popup .errors{
+    color: #F00;
+    font-family: Arial;
+    font-size: 12px;
+    margin: auto auto 30px;
+
+    padding-bottom: 6px;
+    text-align: center;
+    width: 450px;
+}
+
+#popup .newsletter .info{
+    color: #494949;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#popup .newsletter .blueButton{margin:6px;}
+
+#popup .newsletter .contine .title{
+    border-top: 2px solid #E5E4D8;
+    color: #2C2C2C;
+    margin: auto auto 15px;
+    padding-top: 6px;
+    text-align: center;
+    width: 170px;
+    clear: both;
+    margin-top: 30px;
+}
+#popup .newsletter .setEmail{
+    width: 240px;
+    margin: auto;
+    margin-top: 30px;
+}
+#popup .newsletter .emailTable label{
+
+    color: #2E2E2E;
+    font-size: 12px;
+    padding-right: 7px;
+    text-align: right;
+    width: 70px;
+}
+#popup .newsletter .emailTable input[type="text"]{
+    color: #2E2E2E;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+
+    margin: 0px;
+
+    width: 170px;
+}
+#popup .newsletter  .submitForm{
+    width: 110px;
+    margin: auto;
+    margin-top: 30px;
+    float: none;
+}
+#popup .newsletter  .categoriiAlese{
+    text-align: center;
+}
+#popup .newsletter .categorii{
+    text-align: center;
+}
+#popup .newsletter  .categorie span{
+    float:none; clear:both; display:inline; padding:7px; padding-left: 10px; padding-right: 10px;
+}
+#popup .newsletter  .categorie_aleasa span{
+    float:none; clear:both; width:120px; display:inline; padding:7px;
+}
+#popup .newsletter  .categorie_aleasa{
+    background-image: url('../images/x.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 20px;
+    *padding-bottom: 10px;
+}
+#popup .newsletter .success{
+    background: none repeat scroll 0 0 #E3FBE7;
+    border: 1px solid #C9FAD0;
+    border-radius: 5px 5px 5px 5px;
+    color: #3D9149;
+    display: block;
+    padding: 5px 12px;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 20px;
+}
+/* popups */

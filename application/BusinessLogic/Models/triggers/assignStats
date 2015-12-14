@@ -1,0 +1,14 @@
+drop trigger if exists assignStats
+delimiter $$
+create trigger assignStats
+after INSERT
+on items_stats
+for each row
+begin
+
+update items set id_stats=new.id_stats
+where id_item=new.id_item;
+
+end$$
+
+delimiter ;

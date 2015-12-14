@@ -1,0 +1,234 @@
+2014-09-02 23:55:19 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('ad4320fb9370e4ae84cc7637f753676c', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409694919, '')
+2014-09-02 23:55:19 - DELETE FROM `cisession`
+WHERE `session_id` =  'ad4320fb9370e4ae84cc7637f753676c'
+===[took:0]
+
+2014-09-02 23:55:24 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('49e66c899ff51c51248b071893fb1fe2', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409694924, '')
+===[took:0]
+
+2014-09-02 23:55:25 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '49e66c899ff51c51248b071893fb1fe2'
+2014-09-02 23:55:25 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('83ef179ca6ab46e50ea833aec1ef553f', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409694925, '')
+2014-09-02 23:55:25 - DELETE FROM `cisession`
+WHERE `session_id` =  '83ef179ca6ab46e50ea833aec1ef553f'
+===[took:0.045]
+
+2014-09-02 23:55:26 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '49e66c899ff51c51248b071893fb1fe2'
+2014-09-02 23:55:26 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('bda4f5e83e8109b2df0e1c28b1ee2b08', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409694926, '')
+2014-09-02 23:55:26 - DELETE FROM `cisession`
+WHERE `session_id` =  'bda4f5e83e8109b2df0e1c28b1ee2b08'
+===[took:0]
+
+2014-09-02 23:55:32 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('65ee5bde562b0a59a9bc0c240b2cb490', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409694932, '')
+2014-09-02 23:55:32 - DELETE FROM `cisession`
+WHERE `last_activity` < 1409687732
+===[took:0.025]
+
+2014-09-02 23:55:39 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:39 - UPDATE `cisession` SET `last_activity` = 1409694939, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.055]
+
+2014-09-02 23:55:40 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:40 - UPDATE `cisession` SET `last_activity` = 1409694940, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:40 - UPDATE `cisession` SET `last_activity` = 1409694940, `user_data` = 'a:1:{s:7:\"user_id\";i:1;}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:40 - UPDATE `cisession` SET `last_activity` = 1409694940, `user_data` = 'a:2:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:40 - UPDATE `cisession` SET `last_activity` = 1409694940, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.03]
+
+2014-09-02 23:55:41 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:41 - UPDATE `cisession` SET `last_activity` = 1409694941, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:41 - UPDATE `cisession` SET `last_activity` = 1409694941, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:41 - UPDATE `cisession` SET `last_activity` = 1409694941, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.035]
+
+2014-09-02 23:55:43 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:43 - UPDATE `cisession` SET `last_activity` = 1409694943, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:43 - UPDATE `cisession` SET `last_activity` = 1409694943, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:43 - UPDATE `cisession` SET `last_activity` = 1409694943, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.03]
+
+2014-09-02 23:55:57 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:57 - UPDATE `cisession` SET `last_activity` = 1409694957, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:57 - UPDATE `cisession` SET `last_activity` = 1409694957, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:55:57 - UPDATE `cisession` SET `last_activity` = 1409694957, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.015]
+
+2014-09-02 23:56:09 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:09 - UPDATE `cisession` SET `last_activity` = 1409694969, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:09 - UPDATE `cisession` SET `last_activity` = 1409694969, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:09 - UPDATE `cisession` SET `last_activity` = 1409694969, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.015]
+
+2014-09-02 23:56:10 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:10 - UPDATE `cisession` SET `last_activity` = 1409694970, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:10 - UPDATE `cisession` SET `last_activity` = 1409694970, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:10 - UPDATE `cisession` SET `last_activity` = 1409694970, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.03]
+
+2014-09-02 23:56:24 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:24 - UPDATE `cisession` SET `last_activity` = 1409694984, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:24 - UPDATE `cisession` SET `last_activity` = 1409694984, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:24 - UPDATE `cisession` SET `last_activity` = 1409694984, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.01]
+
+2014-09-02 23:56:34 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:34 - UPDATE `cisession` SET `last_activity` = 1409694994, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:34 - UPDATE `cisession` SET `last_activity` = 1409694994, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:34 - UPDATE `cisession` SET `last_activity` = 1409694994, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.02]
+
+2014-09-02 23:56:36 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.025]
+
+2014-09-02 23:56:36 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - UPDATE `cisession` SET `last_activity` = 1409694996, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:36 - SELECT *
+FROM (`rol`)
+ORDER BY `rol_nume` ASC
+2014-09-02 23:56:36 - SELECT COUNT(*) AS `numrows`
+FROM (`rol`)
+===[took:0]
+
+2014-09-02 23:56:38 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:38 - UPDATE `cisession` SET `last_activity` = 1409694998, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:38 - UPDATE `cisession` SET `last_activity` = 1409694998, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:38 - UPDATE `cisession` SET `last_activity` = 1409694998, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.02]
+
+2014-09-02 23:56:39 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:39 - UPDATE `cisession` SET `last_activity` = 1409694999, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:39 - UPDATE `cisession` SET `last_activity` = 1409694999, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:39 - UPDATE `cisession` SET `last_activity` = 1409694999, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.015]
+
+2014-09-02 23:56:42 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - SELECT *
+FROM (`rol`)
+ORDER BY `rol_nume` ASC
+2014-09-02 23:56:42 - SELECT COUNT(*) AS `numrows`
+FROM (`rol`)
+===[took:0]
+
+2014-09-02 23:56:42 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:42 - UPDATE `cisession` SET `last_activity` = 1409695001, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.03]
+
+2014-09-02 23:56:49 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:49 - UPDATE `cisession` SET `last_activity` = 1409695009, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:49 - UPDATE `cisession` SET `last_activity` = 1409695009, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:49 - UPDATE `cisession` SET `last_activity` = 1409695009, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:56:49 - SELECT *
+FROM (`rol`)
+ORDER BY `rol_nume` ASC
+2014-09-02 23:56:49 - SELECT COUNT(*) AS `numrows`
+FROM (`rol`)
+===[took:0]
+
+2014-09-02 23:57:45 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:57:45 - UPDATE `cisession` SET `last_activity` = 1409695065, `session_id` = '65ee5bde562b0a59a9bc0c240b2cb490' WHERE session_id = '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:57:45 - UPDATE `cisession` SET `last_activity` = 1409695065, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+2014-09-02 23:57:45 - UPDATE `cisession` SET `last_activity` = 1409695065, `user_data` = 'a:3:{s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '65ee5bde562b0a59a9bc0c240b2cb490'
+===[took:0.02]
+
+2014-09-02 23:58:18 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '1bdf0a73b969a940fbaa71cbada1ceb4'
+2014-09-02 23:58:18 - UPDATE `cisession` SET `last_activity` = 1409695098, `session_id` = '1bdf0a73b969a940fbaa71cbada1ceb4' WHERE session_id = '1bdf0a73b969a940fbaa71cbada1ceb4'
+===[took:0.087]
+
+2014-09-02 23:58:22 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '1bdf0a73b969a940fbaa71cbada1ceb4'
+2014-09-02 23:58:22 - UPDATE `cisession` SET `last_activity` = 1409695102, `session_id` = '1bdf0a73b969a940fbaa71cbada1ceb4' WHERE session_id = '1bdf0a73b969a940fbaa71cbada1ceb4'
+2014-09-02 23:58:22 - DELETE FROM `cisession`
+WHERE `session_id` =  '1bdf0a73b969a940fbaa71cbada1ceb4'
+===[took:0.02]
+
+2014-09-02 23:58:28 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('377a086af226b6f9a110b635cb00a3bc', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36', 1409695108, '')
+===[took:0.033]
+
+2014-09-02 23:58:36 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:36 - UPDATE `cisession` SET `last_activity` = 1409695116, `session_id` = '377a086af226b6f9a110b635cb00a3bc' WHERE session_id = '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:36 - UPDATE `cisession` SET `last_activity` = 1409695116, `user_data` = 'a:2:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:36 - UPDATE `cisession` SET `last_activity` = 1409695116, `user_data` = 'a:3:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:36 - UPDATE `cisession` SET `last_activity` = 1409695116, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+===[took:0.022]
+
+2014-09-02 23:58:37 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:37 - UPDATE `cisession` SET `last_activity` = 1409695116, `session_id` = '377a086af226b6f9a110b635cb00a3bc' WHERE session_id = '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:37 - UPDATE `cisession` SET `last_activity` = 1409695116, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:37 - UPDATE `cisession` SET `last_activity` = 1409695116, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+===[took:0.046]
+
+2014-09-02 23:58:38 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `session_id` = '377a086af226b6f9a110b635cb00a3bc' WHERE session_id = '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+===[took:0.076]
+
+2014-09-02 23:58:38 - SELECT *
+FROM (`cisession`)
+WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `session_id` = '377a086af226b6f9a110b635cb00a3bc' WHERE session_id = '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - UPDATE `cisession` SET `last_activity` = 1409695118, `user_data` = 'a:4:{s:9:\"user_data\";s:0:\"\";s:7:\"user_id\";i:1;s:10:\"user_roles\";a:1:{i:0;s:5:\"admin\";}s:10:\"user_perms\";a:0:{}}' WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+2014-09-02 23:58:38 - DELETE FROM `cisession`
+WHERE `session_id` =  '377a086af226b6f9a110b635cb00a3bc'
+===[took:0.031]
+
+2014-09-02 23:59:11 - INSERT INTO `cisession` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES ('5406ccfc6d2cba0c6052fb4e281da9c7', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0', 1409695151, '')
+===[took:0.045]
+

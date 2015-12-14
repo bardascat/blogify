@@ -1,0 +1,18 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+body{
+    font-family: Arial;
+    font-size: 13px;
+}
+*{margin:0px; padding: 0px;}
+a{color: #FFF; text-decoration: none;}
+img{border:0px;}
+#wrapper{
+    width: 100%;
+    min-height:100%;
+    position:relative;
+}
