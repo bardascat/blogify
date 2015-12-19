@@ -52,10 +52,10 @@ class Doctrine {
         // Database connection information
         $dbParams = array(
             'driver' => 'pdo_mysql',
-            'user' => "helpie38_neo",
-            'password' => "x#rnoPA;P}74",
+            'user' => "bardascat",
+            'password' => "",
             'host' => "localhost",
-            'dbname' => "helpie38_main"
+            'dbname' => "c9"
         );
 
 
@@ -83,7 +83,7 @@ class Doctrine {
         $em = EntityManager::create($dbParams, $config);
 
         try {
-          // $this->updateSchema($em);
+          //$this->updateSchema($em);
         } catch (\Exception $e) {
             echo $e->getMessage();
         }

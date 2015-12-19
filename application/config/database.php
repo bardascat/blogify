@@ -56,9 +56,9 @@ switch (ENVIRONMENT) {
 		$active_record = TRUE;
                 
 		$db['default']['hostname'] = "localhost";
-		$db['default']['username'] = "helpie38_neo";
-		$db['default']['password'] = "x#rnoPA;P}74";
-		$db['default']['database'] = "helpie38_main";
+		$db['default']['username'] = "bardascat";
+		$db['default']['password'] = "";
+		$db['default']['database'] = "c9";
                /*
                 $db['default']['hostname'] = "127.0.0.1";
 		$db['default']['username'] = "root";
