@@ -83,7 +83,7 @@ class Doctrine {
         $em = EntityManager::create($dbParams, $config);
 
         try {
-          //$this->updateSchema($em);
+         // $this->updateSchema($em);
         } catch (\Exception $e) {
             echo $e->getMessage();
         }
@@ -104,26 +104,15 @@ class Doctrine {
 
         $classes = array(
             $em->getClassMetadata("Entities:User"),
-            $em->getClassMetadata("Entities:Partener"),
-            $em->getClassMetadata("Entities:Transaction"),
-            $em->getClassMetadata("Entities:UserNotification"),
             $em->getClassMetadata("Entities:JobLog"),
-            $em->getClassMetadata("Entities:Email"),
-            $em->getClassMetadata("Entities:Task"),
-            $em->getClassMetadata("Entities:TaskNotes"),
-            $em->getClassMetadata("Entities:TaskList"),
-            $em->getClassMetadata("Entities:TaskReminder"),
             $em->getClassMetadata("Entities:Rol"),
             $em->getClassMetadata("Entities:Permisiune"),
             $em->getClassMetadata("Entities:RolPermisiune"),
-            $em->getClassMetadata("Entities:Pachet"),
-            $em->getClassMetadata("Entities:Serviciu"),
             $em->getClassMetadata("Entities:CISession"),
-            $em->getClassMetadata("Entities:Order"),
-            $em->getClassMetadata("Entities:OrderItem"),
             $em->getClassMetadata("Entities:SimplePage"),
-            $em->getClassMetadata("Entities:News"),
-            $em->getClassMetadata("Entities:NewsletterSubscriber")
+            $em->getClassMetadata("Entities:NewsletterSubscriber"),
+            $em->getClassMetadata("Entities:Post"),
+            $em->getClassMetadata("Entities:Blog")
         );
 
         $tool->updateSchema($classes);
