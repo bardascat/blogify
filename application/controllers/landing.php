@@ -14,15 +14,7 @@ class landing extends PUBLIC_Controller {
 
     public function index() {
 
-        $pachete = $this->NomenclatorModel->getPachete(array());
-        $OrderModel = new BusinessLogic\Models\OrderModel();
-        $data = array("show_header" => true,
-            "pachete" => $pachete,
-            "suma_fundatie" => $OrderModel->getSumaFundatie()
-        );
-
-        //echo $this->auth->getUserDetails();
-
+        
         $this->load_view("index/landing", $data);
     }
 

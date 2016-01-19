@@ -83,7 +83,7 @@ class Doctrine {
         $em = EntityManager::create($dbParams, $config);
 
         try {
-         // $this->updateSchema($em);
+         $this->updateSchema($em);
         } catch (\Exception $e) {
             echo $e->getMessage();
         }
@@ -110,9 +110,13 @@ class Doctrine {
             $em->getClassMetadata("Entities:RolPermisiune"),
             $em->getClassMetadata("Entities:CISession"),
             $em->getClassMetadata("Entities:SimplePage"),
+            $em->getClassMetadata("Entities:Category"),
+            $em->getClassMetadata("Entities:PostCategories"),
             $em->getClassMetadata("Entities:NewsletterSubscriber"),
             $em->getClassMetadata("Entities:Post"),
-            $em->getClassMetadata("Entities:Blog")
+            $em->getClassMetadata("Entities:Blog"),
+            $em->getClassMetadata("Entities:Author"),
+            $em->getClassMetadata("Entities:PostImage")
         );
 
         $tool->updateSchema($classes);

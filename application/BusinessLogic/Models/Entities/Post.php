@@ -8,6 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @Entity 
  * @Table(name="post")
  */
+ 
 class Post extends AbstractEntity {
 
     /**
@@ -15,6 +16,12 @@ class Post extends AbstractEntity {
      * @GeneratedValue
      */
     protected $id_post;
+    
+    
+    /**
+     * @Column(type="integer",unique=true)
+     */
+    protected $guid;
 
     /**
      *
@@ -36,15 +43,26 @@ class Post extends AbstractEntity {
     
     /**
      *
-     * @Column(type="string",nullable=true) @var string 
+     * @Column(type="text",nullable=true) @var string 
      */
     protected $content;
     
      /**
-      * todo check if this can be nullable
      * @Column(type="datetime",nullable=false)
      */
-    protected $date;
+    protected $published;
+    
+    /**
+     * @Column(type="datetime",nullable=true)
+     */
+    protected $updated;
+    
+    /**
+     * @Column(type="datetime",nullable=false)
+     */
+    protected $timestamp;
+    
+    
     
     /**
      *
@@ -53,11 +71,41 @@ class Post extends AbstractEntity {
     protected $image;
     
 
+    /** @OneToMany(targetEntity="PostCategories", mappedBy="item",cascade={"persist","merge"}) */
+    private $PostCategories;
+    
     function __construct() {
-      
+      $this->images = new ArrayCollection();
+      $this->timestamp = new \DateTime("now");
+    }
+    
+     /**
+     * @OneToMany(targetEntity="PostImage",mappedBy="item",cascade={"persist","merge"})
+     * @OrderBy({"primary_image" = "desc","id_image"="desc"})
+     */
+    private $images;
+
+    public function addImage(PostImage $image) {
+        $image->setPost($this);
+        if (!($this->images instanceof ArrayCollection))
+            $this->images = new ArrayCollection ();
+
+        $this->images->add($image);
+    }
+    public function getImages() {
+        return $this->images;
+    }
+    
+     public function addCategory(PostCategories $postCategories) {
+        $postCategories->setPost($this);
+        $this->PostCategories->add($postCategories);
     }
 
-  
+   
+    public function getPostCategories() {
+        return $this->PostCategories;
+    }
+    
     public function setBlog($blog){
         $this->blog=$blog;
     }
@@ -91,11 +139,23 @@ class Post extends AbstractEntity {
         return $this->content;
     }
     
-    public function setDate($date) {
-        $this->date = $date;
+    public function setPublished($published) {
+        $this->published = $published;
     }
-    public function getDate(){
-        return $this->date;
+    public function getPublished(){
+        return $this->published;
+    }
+    
+    public function setUpdated($updated) {
+        $this->updated = $updated;
+    }
+    public function getUpdated(){
+        return $this->updated;
+    }
+    
+    
+    public function getTimestamp(){
+        return $this->timestamp;
     }
     
     public function setImage($image) {
@@ -103,6 +163,13 @@ class Post extends AbstractEntity {
     }
     public function getImage(){
         return $this->image;
+    }
+    
+     public function setGuid($guid) {
+        $this->guid = $guid;
+    }
+    public function getGuid(){
+        return $this->guid;
     }
  
 

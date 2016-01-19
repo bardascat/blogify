@@ -17,37 +17,14 @@ class Category extends AbstractEntity {
      */
     private $id_category;
 
-    /** @OneToMany(targetEntity="ItemCategories", mappedBy="category") */
-    private $ItemCategories;
+    /** @OneToMany(targetEntity="PostCategories", mappedBy="category") */
+    private $PostCategories;
 
     /**
      * @Column(type="string",nullable=true) @var string 
      */
     public $name;
 
-    /**
-     * @Column(type="string",nullable=true) @var string 
-     */
-    public $name_ro;
-
-    /**
-     * @Column(type="text",nullable=true) @var string 
-     */
-    public $description;
-
-    /**
-     * @Column(type="text",nullable=true) @var string 
-     */
-    public $branches;
-    /**
-     * @Column(type="text",nullable=true) @var string 
-     */
-    public $description_ro;
-
-    /**
-     * @Column(type="text",nullable=true) @var string 
-     */
-    public $branches_ro;
 
     /**
      *
@@ -92,13 +69,13 @@ class Category extends AbstractEntity {
     private $parent;
 
     function __construct() {
-        $this->ItemCategories = new ArrayCollection();
+        $this->PostCategories = new ArrayCollection();
         $this->children = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
-    public function addItemCategory(ItemCategories $itemCategories) {
-        $itemCategories->setCategory($this);
-        $this->ItemCategories->add($itemCategories);
+    public function addItemCategory(PostCategories $PostCategories) {
+        $PostCategories->setCategory($this);
+        $this->PostCategories->add($PostCategories);
     }
 
     public function getId_category() {
@@ -118,7 +95,7 @@ class Category extends AbstractEntity {
 
     public function setName($name) {
         $this->name = $name;
-        //$this->slug = \NeoMvc\Controllers\controller::makeSlugs($name);
+     
     }
 
     public function getSlug() {
@@ -206,55 +183,6 @@ class Category extends AbstractEntity {
     public function setChildren($children) {
         $this->children = $children;
         return $this;
-    }
-
-    public function getDescription() {
-         if (\BusinessLogic\Util\Language::getLanguage() == "en")
-            return $this->description;
-        else
-            return $this->description_ro;
-    }
-
-    public function getBranches() {
-        if (\BusinessLogic\Util\Language::getLanguage() == "en")
-            return $this->branches;
-        else
-            return $this->branches_ro;
-    }
-
-    public function setDescription($description) {
-        $this->description = $description;
-    }
-
-    public function setBranches($branches) {
-        $this->branches = $branches;
-    }
-    
-    public function getName_ro() {
-        return $this->name_ro;
-    }
-
-    public function getDescription_ro() {
-        if (\BusinessLogic\Util\Language::getLanguage() == "en")
-            return $this->description;
-        else
-            return $this->description_ro;
-    }
-
-    public function getBranches_ro() {
-        return $this->branches_ro;
-    }
-
-    public function setName_ro($name_ro) {
-        $this->name_ro = $name_ro;
-    }
-
-    public function setDescription_ro($description_ro) {
-        $this->description_ro = $description_ro;
-    }
-
-    public function setBranches_ro($branches_ro) {
-        $this->branches_ro = $branches_ro;
     }
 
 

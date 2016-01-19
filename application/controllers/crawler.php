@@ -16,26 +16,36 @@ class crawler extends PUBLIC_Controller {
         $feed->set_cache_location('application/libraries/SimplePieLibrary/cache');
  
         // Set which feed URL to process.
-        $feed->set_feed_url("http://www.tolo.ro/feed/");
+        $feed->set_feed_url("http://www.callainmotion.com/calla-in-motion?format=RSS");
          
         // Run SimplePie.
         $status=$feed->init();
 
-        echo ($status===false);
-        
         $feed->handle_content_type(); 
 
         
-        echo '<pre>';
-        echo $feed->get_title();
-        echo $feed->get_image_url();
+  
        
        $channel = $feed->get_feed_tags('', 'channel');
-	    print_r($channel);
+	  //  print_r($channel);
 	
+	/**
+	 * 
+	 * TODO: so far we built a first version of the data model. Now we should try using it by writing some code for the crawler.
+	 */
+	echo 'doing something';
         
         foreach ($feed->get_items() as $item) {
-            print_r($item->get_source());
+           
+            if($item->get_title()=="New Year New Gear"){
+                
+              
+                
+                echo '<pre>';
+                print_r($item->get_enclosures());
+        
+                exit();
+            }
             echo '<br/>';
         
         }

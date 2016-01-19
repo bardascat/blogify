@@ -3,10 +3,11 @@
 namespace BusinessLogic\Models\Entities;
 
 /**
+ * this table is used for storing post images which most of them comes from the media rss tag.
  * @Entity 
- * @Table(name="items_images")
+ * @Table(name="post_images")
  */
-class ItemImage {
+class PostImage {
 
     public function getId_image() {
         return $this->id_image;
@@ -34,12 +35,12 @@ class ItemImage {
         $this->thumb = $thumb;
     }
 
-    public function getIdItem() {
-        return $this->id_item;
+    public function getIdPost() {
+        return $this->id_Post;
     }
 
-    public function setIdItem($id_item) {
-        $this->id_item = $id_item;
+    public function setIdPost($id_Post) {
+        $this->id_Post = $id_Post;
     }
 
     /**
@@ -77,20 +78,20 @@ class ItemImage {
     /**
      * @Column(type="integer") @var string 
      */
-    private $id_item;
+    private $id_post;
 
     /**
-     * @ManyToOne(targetEntity="Item",inversedBy="images")
-     * @JoinColumn(name="id_item", referencedColumnName="id_item" ,onDelete="CASCADE")
+     * @ManyToOne(targetEntity="Post",inversedBy="images")
+     * @JoinColumn(name="id_post", referencedColumnName="id_post" ,onDelete="CASCADE")
      */
-    private $item;
+    private $Post;
 
-    public function setItem(Item $item) {
-        $this->item = $item;
+    public function setPost(Post $Post) {
+        $this->Post = $Post;
     }
 
-    public function getItem() {
-        return $this->item;
+    public function getPost() {
+        return $this->Post;
     }
 
 }

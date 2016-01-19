@@ -27,6 +27,18 @@ class Blog extends AbstractEntity {
      * @Column(type="string",nullable=false) @var string 
      */
     protected $name;
+    
+    /**
+     *
+     * @Column(type="text",nullable=true) @var string 
+     */
+    protected $description;
+    
+    /**
+     *
+     * @Column(type="datetime",nullable=false)
+     */
+    protected $joined;
 
 
     /**
@@ -48,7 +60,9 @@ class Blog extends AbstractEntity {
 
     function __construct() {
         $this->posts = new ArrayCollection();
+        $this->joined = new \DateTime("now");
     }
+    
     public function addPost(Post $post) {
         $post->addBlog($this);
         $this->posts->add($post);
@@ -59,6 +73,14 @@ class Blog extends AbstractEntity {
     public function setName($name){
         $this->name=$name;
     }
+    
+     public function geDescription(){
+        return $this->description;
+    }
+    public function setDescription($description){
+        $this->description=$description;
+    }
+    
     public function setUrl($url){
         $this->url=$url;
     }
